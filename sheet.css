@@ -1,0 +1,17 @@
+body, html{
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Circular Std Book';
+}
+header{
+    height: inherit;
+}
+.navBar{
+    height: 0px;
+    width: 100%;
+}
+.body1{
+    width: 100%;
+    background:#2962FF no-repeat;
+}
