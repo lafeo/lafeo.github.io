@@ -5,7 +5,7 @@ body, html{
     font-family: 'Circular Std Book';
 }
 header{
-    height: inherit;
+    height: 96px;
 }
 .navBar{
     height: 0px;
@@ -14,4 +14,11 @@ header{
 .body1{
     width: 100%;
     background:#2962FF no-repeat;
+}
+.fa-compass, .fa-bars{
+    font-size: 48px;
+    margin: 24px;
+    float: right;
+    margin-right: 108px;
+    cursor: pointer;
 }
