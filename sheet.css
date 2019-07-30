@@ -22,3 +22,31 @@ header{
     margin-right: 108px;
     cursor: pointer;
 }
+#bodyMain{
+    visibility: hidden;
+}
+.menu{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    text-align: center; 
+    visibility: hidden;
+}
+.navItem{
+    display: block;
+    box-sizing: border-box;
+    padding: 8px;
+    margin: 8px;
+    cursor: pointer;
+    font-size: 5vw;
+    
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s;
+}
+a:hover{
+    color: #BDBDBD;
+}
